@@ -13,6 +13,6 @@ public class Entry
 
     public override string ToString()
     {
-        return $"{Date} ~|~ {Prompt} ~|~ {Response}";
+        return $"{Date} | {Prompt} | {Response}";
     }
 }

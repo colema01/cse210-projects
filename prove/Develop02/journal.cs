@@ -43,7 +43,7 @@ public class Journal
             while (!sr.EndOfStream)
             {
                 var line = sr.ReadLine();
-                var parts = line.Split(" ~|~ ");
+                var parts = line.Split(" | ");
                 var entry = new Entry(parts[1], parts[2], parts[0]);
                 Entries.Add(entry);
             }
