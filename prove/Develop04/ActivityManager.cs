@@ -15,7 +15,7 @@ public class ActivityManager
             case "3":
                 return false; 
             default:
-                Console.WriteLine("Invalid option, please try again.");
+                Console.WriteLine("Error, please try again");
                 return true;
         }
     }
