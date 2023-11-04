@@ -2,7 +2,7 @@ using System;
 
 public class BreathingActivity : Activity
 {
-    public BreathingActivity() : base("Breathing", "This activity will help you relax by walking you through breathing in and out slowly.") { }
+    public BreathingActivity() : base("Breathing", "This will help you relax by breathing in and out slowly.") { }
 
     protected override void RunActivity()
     {

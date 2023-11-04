@@ -10,7 +10,7 @@ public class ReflectionActivity : Activity
         "Why are you here?",
     };
 
-    public ReflectionActivity() : base("Reflection", "This will help you reflect on times in your life.") { }
+    public ReflectionActivity() : base("Reflection", "This will help you reflect on your life.") { }
 
     protected override void RunActivity()
     {

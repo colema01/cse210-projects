@@ -17,7 +17,7 @@ class Program
             string input = Console.ReadLine();
             if (!activityManager.HandleInput(input))
             {
-                break; // Exit the program when "3" is entered
+                break; 
             }
         }
     }
