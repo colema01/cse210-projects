@@ -17,7 +17,7 @@ public abstract class Activity
     {
         DisplayStartMessage();
         Duration = PromptForDuration();
-        PauseWithAnimation(3); // Preparation pause
+        PauseWithAnimation(3); 
         RunActivity();
         DisplayEndMessage();
     }
