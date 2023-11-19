@@ -1,0 +1,2 @@
+1,workout,250,SimpleGoal,True
+2,prayer,400,EternalGoal,True
