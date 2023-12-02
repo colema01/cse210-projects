@@ -1,9 +1,16 @@
-using System;
+using PersonalBudgetManager.Services;
+using PersonalBudgetManager.UI;
 
-class Program
+namespace PersonalBudgetManager
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello FinalProject World!");
+        static void Main(string[] args)
+        {
+            BudgetManager budgetManager = new BudgetManager();
+            UserInterface ui = new UserInterface(budgetManager);
+
+            ui.DisplayMenu();
+        }
     }
 }
